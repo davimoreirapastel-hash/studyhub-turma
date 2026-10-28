@@ -54,7 +54,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* CONFIGURAÇÃO: substitua os dois valores pelas credenciais públicas do seu projeto Supabase. Nunca coloque uma service_role key aqui. */
-const SUPABASE_URL="https://bfosmdlsgpnzfgnqaxsj.supabase.co/rest/v1/";
+const SUPABASE_URL="https://bfosmdlsgpnzfgnqaxsj.supabase.co";
 const SUPABASE_ANON_KEY="sb_publishable__8pXRRDxnnjfby4zi6fq3w_SJlHSTC-";
 const configured=SUPABASE_URL.startsWith("https://")&&SUPABASE_ANON_KEY!=="COLOQUE_AQUI_A_CHAVE_PUBLICA_ANON";
 let db=null,user=null,profile=null,authMode="login",exams=[],tasks=[],notes=[],messages=[],files=[],profiles=[],weekOffset=0,selectedNote=null;
